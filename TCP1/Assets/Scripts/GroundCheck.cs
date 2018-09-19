@@ -15,12 +15,24 @@ public class GroundCheck : MonoBehaviour
     {
         if (col.gameObject.tag == "Ground")
             player.grounded = true;
+
+        if (col.gameObject.tag == "Enemy")
+        {
+            Destroy(col);
+            Debug.Log("destruiu inimigo");
+        }
     }
 
     void OnTriggerStay2D(Collider2D col)
     {
         if (col.gameObject.tag == "Ground")
             player.grounded = true;
+
+        if (col.gameObject.tag == "Enemy")
+        {
+            Destroy(col);
+            Debug.Log("destruiu inimigo");
+        }
     }
 
     void OnTriggerExit2D(Collider2D col)

@@ -15,5 +15,10 @@ public class ObstacleSpawn : MonoBehaviour
             Instantiate(obstacle, spawnPoints[rand].transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
+        else
+        {
+            Instantiate(obstacle, transform.position, Quaternion.identity);
+            Destroy(this.gameObject);
+        }
     }
 }

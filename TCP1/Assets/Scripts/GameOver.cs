@@ -6,6 +6,10 @@ public class GameOver : MonoBehaviour
 {
     public void EndGame()
     {
-        Debug.Log("perdeu");
+        Debug.Log("perdeu. highscore: " + PlayerPrefs.GetInt("HIGHSCORE"));
+        if(PlayerPrefs.GetInt("HIGHSCORE") <= PlayerPrefs.GetInt("SCORE"))
+        {
+            PlayerPrefs.SetInt("HIGHSCORE", PlayerPrefs.GetInt("SCORE"));
+        }
     }
 }

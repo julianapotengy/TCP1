@@ -26,12 +26,14 @@ public class Shot : MonoBehaviour
         {
             col.GetComponent<Enemy1>().life = 0;
             Debug.Log("destruiu inimigo");
+            gameManager.GetComponent<Points>().DestroyEnemyPoints();
         }
 
         if (col.gameObject.tag == "Enemy2")
         {
             col.GetComponent<Enemy2>().life = 0;
             Debug.Log("destruiu inimigo");
+            gameManager.GetComponent<Points>().DestroyEnemyPoints();
         }
     }
 

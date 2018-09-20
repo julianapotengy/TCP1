@@ -5,6 +5,7 @@ using UnityEngine;
 public class GroundCheck : MonoBehaviour
 {
     public Player player;
+    public GameObject gameManager;
 
     void Start()
     {
@@ -28,10 +29,11 @@ public class GroundCheck : MonoBehaviour
         if (col.gameObject.tag == "Ground")
             player.grounded = true;
 
-        if (col.gameObject.tag == "Enemy")
+        if (col.gameObject.tag == "Enemy2")
         {
             Destroy(col);
             Debug.Log("destruiu inimigo");
+            gameManager.GetComponent<Points>().DestroyEnemyPoints();
         }
     }
 

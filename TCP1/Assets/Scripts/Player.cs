@@ -5,11 +5,12 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public float axisX, speed, jumpForce;
+    public float axisX, speed, jumpForce, fire;
     private Rigidbody2D rbody;
     private SpriteRenderer spriteRender;
     public int facingDirection;
     public bool grounded;
+    public GameObject shot, shotStart;
 
     void Start()
     {
@@ -29,6 +30,11 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown("w") && grounded)
         {
             rbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        }
+
+        if(Input.GetKeyDown("mouse 0"))
+        {
+            Instantiate(shot, shotStart.transform.position, Quaternion.identity);
         }
 
         if (axisX > 0) { this.facingDirection = 1; spriteRender.flipX = false; }

@@ -13,12 +13,11 @@ public class ObstacleSpawn : MonoBehaviour
         {
             int rand = Random.Range(0, spawnPoints.Length);
             Instantiate(obstacle, spawnPoints[rand].transform.position, Quaternion.identity);
-            Destroy(this.gameObject);
         }
         else
         {
             Instantiate(obstacle, transform.position, Quaternion.identity);
-            Destroy(this.gameObject);
         }
+        Destroy(this.gameObject);
     }
 }

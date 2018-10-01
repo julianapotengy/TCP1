@@ -37,15 +37,12 @@ public class Player : MonoBehaviour
             Instantiate(shot, shotStart.transform.position, Quaternion.identity);
         }
 
-        if (axisX > 0) { this.facingDirection = 1; spriteRender.flipX = false; }
-        else if (axisX < 0) { this.facingDirection = -1; spriteRender.flipX = true; }
+        /*if (axisX > 0) { this.facingDirection = 1; spriteRender.flipX = false; }
+        else if (axisX < 0) { this.facingDirection = -1; spriteRender.flipX = true; }*/
     }
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Mouse0))
-        {
-
-        }
+        
     }
 }

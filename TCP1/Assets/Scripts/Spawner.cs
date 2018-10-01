@@ -30,7 +30,7 @@ public class Spawner : MonoBehaviour
     {
         SpawnEnemy1();
         SpawnEnemy2();
-        SpawnMine();
+        //SpawnMine();
 	}
 
     void SpawnEnemy1()
@@ -67,7 +67,7 @@ public class Spawner : MonoBehaviour
         }
     }
 
-    void SpawnMine()
+    /*void SpawnMine()
     {
         if (timeBtwSpawn3 <= 0)
         {
@@ -82,5 +82,5 @@ public class Spawner : MonoBehaviour
         {
             timeBtwSpawn3 -= Time.deltaTime;
         }
-    }
+    }*/
 }

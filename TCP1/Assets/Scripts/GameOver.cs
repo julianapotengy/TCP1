@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
@@ -11,5 +12,6 @@ public class GameOver : MonoBehaviour
         {
             PlayerPrefs.SetInt("HIGHSCORE", PlayerPrefs.GetInt("SCORE"));
         }
+        SceneManager.LoadScene(2);
     }
 }

@@ -15,7 +15,6 @@ public class Mine : MonoBehaviour
     {
         if (c.gameObject.tag == "Player")
         {
-            Destroy(this.gameObject);
             gameManager.GetComponent<GameOver>().EndGame();
         }
     }

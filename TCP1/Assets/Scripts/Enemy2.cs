@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Enemy2 : MonoBehaviour
 {
-    private GameObject gameManager;
+    private GameObject gameManager, player;
     public int life;
 
     void Start ()
     {
         life = 1;
         gameManager = GameObject.FindWithTag("GameController");
+        player = GameObject.FindWithTag("Player");
     }
 	
 	void Update ()
@@ -26,7 +27,9 @@ public class Enemy2 : MonoBehaviour
         if (c.gameObject.tag == "Player")
         {
             Destroy(this.gameObject);
-            gameManager.GetComponent<GameOver>().EndGame();
+            player.GetComponent<Player>().playerLife -= 1;
+            player.GetComponent<Player>().damageAnim = true;
+            //gameManager.GetComponent<GameOver>().EndGame();
         }
     }
 }

@@ -8,7 +8,7 @@ public class Enemy1 : MonoBehaviour
     private Rigidbody2D rbody;
     public Transform[] positionsToMove;
     private bool moveUp;
-    private GameObject gameManager;
+    private GameObject gameManager, player;
     public int life;
 
     void Start ()
@@ -18,6 +18,7 @@ public class Enemy1 : MonoBehaviour
         moveUp = true;
         life = 1;
         gameManager = GameObject.FindWithTag("GameController");
+        player = GameObject.FindWithTag("Player");
     }
 	
 	void Update ()
@@ -47,7 +48,9 @@ public class Enemy1 : MonoBehaviour
         if (c.gameObject.tag == "Player")
         {
             Destroy(this.gameObject);
-            gameManager.GetComponent<GameOver>().EndGame();
+            player.GetComponent<Player>().playerLife -= 1;
+            player.GetComponent<Player>().damageAnim = true;
+            //gameManager.GetComponent<GameOver>().EndGame();
         }
     }
 }

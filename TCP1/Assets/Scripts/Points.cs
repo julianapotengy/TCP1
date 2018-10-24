@@ -21,8 +21,7 @@ public class Points : MonoBehaviour
     {
         TimePoints();
         timeFloat += Time.deltaTime;
-
-        Debug.Log("Pontos: " + PlayerPrefs.GetInt("SCORE"));
+        
         pointsTxt.text = PlayerPrefs.GetInt("SCORE").ToString();
     }
 

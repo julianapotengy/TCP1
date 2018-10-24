@@ -6,16 +6,21 @@ public class GroundCheck : MonoBehaviour
 {
     public Player player;
     public GameObject gameManager;
+    public Animator playerAnim;
 
     void Start()
     {
         player = gameObject.GetComponentInParent<Player>();
+        playerAnim = player.GetComponent<Animator>();
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Ground")
+        {
             player.grounded = true;
+            playerAnim.SetBool("jumping", false);
+        }
 
         if (col.gameObject.tag == "Enemy")
         {
@@ -27,7 +32,10 @@ public class GroundCheck : MonoBehaviour
     void OnTriggerStay2D(Collider2D col)
     {
         if (col.gameObject.tag == "Ground")
+        {
             player.grounded = true;
+            playerAnim.SetBool("jumping", false);
+        }
 
         if (col.gameObject.tag == "Enemy2")
         {

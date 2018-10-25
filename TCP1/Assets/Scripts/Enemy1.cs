@@ -9,6 +9,7 @@ public class Enemy1 : MonoBehaviour
     public Transform[] positionsToMove;
     private bool moveUp;
     private GameObject gameManager, player;
+    public SoundManager soundMng;
     public int life;
 
     void Start ()
@@ -18,6 +19,7 @@ public class Enemy1 : MonoBehaviour
         moveUp = true;
         life = 1;
         gameManager = GameObject.FindWithTag("GameController");
+        soundMng = gameManager.GetComponent<SoundManager>();
         player = GameObject.FindWithTag("Player");
     }
 	
@@ -48,6 +50,7 @@ public class Enemy1 : MonoBehaviour
         if (c.gameObject.tag == "Player")
         {
             Destroy(this.gameObject);
+            soundMng.PlayDamage();
             player.GetComponent<Player>().playerLife -= 1;
             player.GetComponent<Player>().damageAnim = true;
             //gameManager.GetComponent<GameOver>().EndGame();

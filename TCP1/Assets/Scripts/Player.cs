@@ -11,8 +11,10 @@ public class Player : MonoBehaviour
     public int facingDirection, playerLife;
     public bool grounded, isDown, damageAnim;
     public GameObject shot, shotStart;
+    public SoundManager soundMng;
     private Animator playerAnim;
     private float counter;
+    public GameObject[] lifeHearts;
 
     void Start()
     {
@@ -36,6 +38,7 @@ public class Player : MonoBehaviour
         rbody.velocity = new Vector2(axisX * speed, transform.position.y);
         if (Input.GetKeyDown("w") && grounded && !damageAnim)
         {
+            soundMng.PlayJump();
             rbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             playerAnim.SetBool("jumping", true);
         }
@@ -58,6 +61,7 @@ public class Player : MonoBehaviour
 
         if(Input.GetKeyDown("mouse 0") && !damageAnim)
         {
+            soundMng.PlayShot();
             Instantiate(shot, shotStart.transform.position, Quaternion.identity);
         }
 
@@ -79,6 +83,23 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        
+        if(playerLife == 3)
+        {
+            lifeHearts[0].SetActive(true);
+            lifeHearts[1].SetActive(true);
+            lifeHearts[2].SetActive(true);
+        }
+        else if(playerLife == 2)
+        {
+            lifeHearts[0].SetActive(true);
+            lifeHearts[1].SetActive(true);
+            lifeHearts[2].SetActive(false);
+        }
+        else if (playerLife == 1)
+        {
+            lifeHearts[0].SetActive(true);
+            lifeHearts[1].SetActive(false);
+            lifeHearts[2].SetActive(false);
+        }
     }
 }

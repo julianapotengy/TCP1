@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy2 : MonoBehaviour
 {
     private GameObject gameManager, player;
+    public SoundManager soundMng;
     public int life;
 
     void Start ()
@@ -12,6 +13,7 @@ public class Enemy2 : MonoBehaviour
         life = 1;
         gameManager = GameObject.FindWithTag("GameController");
         player = GameObject.FindWithTag("Player");
+        soundMng = gameManager.GetComponent<SoundManager>();
     }
 	
 	void Update ()
@@ -27,6 +29,7 @@ public class Enemy2 : MonoBehaviour
         if (c.gameObject.tag == "Player")
         {
             Destroy(this.gameObject);
+            soundMng.PlayDamage();
             player.GetComponent<Player>().playerLife -= 1;
             player.GetComponent<Player>().damageAnim = true;
             //gameManager.GetComponent<GameOver>().EndGame();

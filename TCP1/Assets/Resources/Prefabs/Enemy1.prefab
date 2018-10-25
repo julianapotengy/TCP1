@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 50336766822724466}
   - component: {fileID: 114556661929266034}
   - component: {fileID: 114334895609643288}
-  - component: {fileID: 61950367642747356}
+  - component: {fileID: 95688249685294130}
+  - component: {fileID: 61643096231594530}
   m_Layer: 9
   m_Name: Enemy1
   m_TagString: Enemy1
@@ -39,7 +40,7 @@ Transform:
   m_GameObject: {fileID: 1225842749630152}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.625, y: -0.294, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 9, y: 9, z: 9}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -64,7 +65,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &61950367642747356
+--- !u!61 &61643096231594530
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -80,15 +81,33 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.85, y: 2.79}
+    oldSize: {x: 0.16, y: 0.16}
     newSize: {x: 2.85, y: 2.23}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.85, y: 2.79}
+  m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!95 &95688249685294130
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1225842749630152}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cabee662b9e633f42b1afa3f8af39634, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114334895609643288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -115,6 +134,7 @@ MonoBehaviour:
   positionsToMove:
   - {fileID: 0}
   - {fileID: 0}
+  soundMng: {fileID: 0}
   life: 0
 --- !u!212 &212212026148093240
 SpriteRenderer:
@@ -151,7 +171,7 @@ SpriteRenderer:
   m_SortingLayerID: -1048679879
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300004, guid: 81c2ecbd536da9b4b823ba5d48f60718, type: 3}
+  m_Sprite: {fileID: 21300068, guid: 4c410ee29c8730841993a97d2aed45f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

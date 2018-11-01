@@ -5,8 +5,15 @@ using UnityEngine;
 public class Background : MonoBehaviour
 {
     public float speed, endX, startX;
-	
-	void Update ()
+    private Material currentMaterial;
+    private float offset;
+
+    void Start ()
+    {
+        currentMaterial = this.gameObject.GetComponent<SpriteRenderer>().material;
+    }
+
+    void Update ()
     {
         transform.Translate(Vector2.left * speed * Time.deltaTime);
 
@@ -15,5 +22,7 @@ public class Background : MonoBehaviour
             Vector2 pos = new Vector2(startX, transform.position.y);
             transform.position = pos;
         }
+        /*offset += 0.001f;
+        currentMaterial.SetTextureOffset("_MainTex", new Vector2(offset * speed, 0));*/
     }
 }

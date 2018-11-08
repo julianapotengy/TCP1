@@ -1,9 +1,8 @@
 fileFormatVersion: 2
-guid: 4fe5f2d38f4cffd4592d51048ece2167
+guid: 8b59f12ea5eeb04408d3661d520b8bd0
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Enemy2_0
-    21300002: Enemy2_1
+    21300000: Life_0
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -97,13 +96,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy2_0
+      name: Life_0
       rect:
         serializedVersion: 2
-        x: 316
-        y: 376
-        width: 5
-        height: 5
+        x: 70
+        y: 128
+        width: 886
+        height: 768
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,27 +110,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 343f75a78aabdee41adfc63bc29f50f7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy2_1
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 152
-        width: 340
-        height: 196
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4138a98239a88144b1df76c0bdf6a4a
+      spriteID: bd003347bc80de947b69bba03fe69af1
       vertices: []
       indices: 
       edges: []
@@ -139,7 +118,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1f67c48762b4a8246bc2a874aedf9001
+    spriteID: babdea04513e55e46b56967083211237
     vertices: []
     indices: 
     edges: []

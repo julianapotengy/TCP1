@@ -21,13 +21,12 @@ GameObject:
   - component: {fileID: 4550539422003584}
   - component: {fileID: 212652775669784286}
   - component: {fileID: 50750719423976442}
-  - component: {fileID: 114486056878505408}
-  - component: {fileID: 114333178255562684}
   - component: {fileID: 95863598596959028}
   - component: {fileID: 61048859798212534}
+  - component: {fileID: 114231155178244918}
   m_Layer: 9
-  m_Name: Enemy2
-  m_TagString: Enemy2
+  m_Name: EnemyGround
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1423456072686388}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.906, y: -3.151, z: 0}
+  m_LocalPosition: {x: 4.906, y: -3.151, z: 3.2}
   m_LocalScale: {x: 7, y: 7, z: 7}
   m_Children: []
   m_Father: {fileID: 0}
@@ -59,7 +58,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -108,7 +107,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114333178255562684
+--- !u!114 &114231155178244918
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,22 +115,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1423456072686388}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 854ce69878c4df4449d4c35b74db2cca, type: 3}
+  m_Script: {fileID: 11500000, guid: 38c9abfa126691b42a471e3c2719e9a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 0
---- !u!114 &114486056878505408
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1423456072686388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65871c3ecd06c674ab1e48d31b056951, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1.5
+  thisEnemyMode: 0
+  speed: 5
+  gameManager: {fileID: 0}
+  player: {fileID: 0}
 --- !u!212 &212652775669784286
 SpriteRenderer:
   m_ObjectHideFlags: 1

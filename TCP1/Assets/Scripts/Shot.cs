@@ -5,6 +5,7 @@ using UnityEngine;
 public class Shot : MonoBehaviour
 {
     public GameObject gameManager;
+    public GameObject powerUp;
     private float speed;
 
     void Start ()
@@ -20,18 +21,17 @@ public class Shot : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Enemy1")
+        if (col.gameObject.tag == "Enemy")
         {
-            col.GetComponent<Enemy1>().life = 0;
-            gameManager.GetComponent<Points>().DestroyEnemyPoints();
-            Destroy(this.gameObject);
-        }
+            int rand = Random.Range(1, 10);
+            if (rand >= 7)
+            {
+                Instantiate(powerUp, this.transform.position, Quaternion.identity);
+            }
 
-        if (col.gameObject.tag == "Enemy2")
-        {
-            col.GetComponent<Enemy2>().life = 0;
             gameManager.GetComponent<Points>().DestroyEnemyPoints();
             Destroy(this.gameObject);
+            Destroy(col.gameObject);
         }
     }
 }

@@ -14,7 +14,7 @@ public class GameOver : MonoBehaviour
 
     void Update()
     {
-        if(player.GetComponent<Player>().playerLife <= 0)
+        if(player.GetComponent<PlayerBehaviour>().life <= 0)
         {
             EndGame();
         }

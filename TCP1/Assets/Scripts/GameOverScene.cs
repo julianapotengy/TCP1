@@ -10,12 +10,7 @@ public class GameOverScene : MonoBehaviour
 
 	void Start ()
     {
-        highScore.text = "HIGHSCORE: " + PlayerPrefs.GetInt("HIGHSCORE");
-        score.text = "SCORE: " + PlayerPrefs.GetInt("SCORE");
-	}
-	
-	void Update ()
-    {
-		
+        highScore.text = PlayerPrefs.GetInt("HIGHSCORE").ToString();
+        score.text = PlayerPrefs.GetInt("SCORE").ToString();
 	}
 }

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
 {
     private GameObject player;
+    public GameObject gameOverPanel;
 
     void Start()
     {
@@ -26,6 +27,6 @@ public class GameOver : MonoBehaviour
         {
             PlayerPrefs.SetInt("HIGHSCORE", PlayerPrefs.GetInt("SCORE"));
         }
-        SceneManager.LoadScene(2);
+        gameOverPanel.SetActive(true);
     }
 }

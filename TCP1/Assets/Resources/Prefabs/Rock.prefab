@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisEnemyMode: 2
-  speed: 5
+  speed: 10
   gameManager: {fileID: 0}
   player: {fileID: 0}
 --- !u!212 &212609115106878208

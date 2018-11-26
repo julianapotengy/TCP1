@@ -8,9 +8,9 @@ public class GameOverScene : MonoBehaviour
     public Text highScore;
     public Text score;
 
-	void Start ()
+	void Update()
     {
         highScore.text = PlayerPrefs.GetInt("HIGHSCORE").ToString();
         score.text = PlayerPrefs.GetInt("SCORE").ToString();
-	}
+    }
 }

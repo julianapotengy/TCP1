@@ -21,7 +21,6 @@ public class SpawnManager : MonoBehaviour
     public GameObject enemyGround;
     public GameObject enemyFly;
     public GameObject rock;
-    public GameObject prisioner;
 
     float timer;
 
@@ -33,6 +32,11 @@ public class SpawnManager : MonoBehaviour
 	void Update ()
     {
         Spawn();
+
+        if(startTimer <= maxTimer)
+        {
+            startTimer = maxTimer;
+        }
 	}
 
     private void Spawn()
@@ -60,10 +64,6 @@ public class SpawnManager : MonoBehaviour
             else if(randEnemy > 70)
             {
                 Instantiate(rock, new Vector3(transform.position.x, randPosition, transform.position.z), Quaternion.identity);
-            }
-            else if(randEnemy > 92)
-            {
-                Instantiate(prisioner, new Vector3(transform.position.x, randPosition, transform.position.z), Quaternion.identity);
             }
             startTimer -= decreaseTimer;
             timer = startTimer;

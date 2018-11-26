@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    public enum IAMode { EnemyGround, EnemyFly, Rock, Prisioner }
+    public enum IAMode { EnemyGround, EnemyFly, Rock }
 
     [Header("Comportamento do Inimigo")]
     public IAMode thisEnemyMode;
@@ -41,9 +41,6 @@ public class EnemyBehaviour : MonoBehaviour
             case IAMode.Rock:
                 Rock();
                 break;
-            case IAMode.Prisioner:
-                Prisioner();
-                break;
         }
     }
 
@@ -56,11 +53,11 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (this.transform.position.y <= 2 && moveUp)
         {
-            transform.Translate(Vector2.up * speed * Time.deltaTime);
+            transform.Translate(Vector2.up * 5 * Time.deltaTime);
         }
         else if (this.transform.position.y >= -2.5 && !moveUp)
         {
-            transform.Translate(Vector2.down * speed * Time.deltaTime);
+            transform.Translate(Vector2.down * 5 * Time.deltaTime);
         }
 
         if (this.transform.position.y >= 2)
@@ -74,21 +71,19 @@ public class EnemyBehaviour : MonoBehaviour
 
     }
 
-    void Prisioner()
-    {
-
-    }
-
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.tag.Equals("Player"))
         {
-            Destroy(this.gameObject);
-            gameManager.GetComponent<SoundManager>().PlayDamage();
-        }
-        if(this.gameObject.name.Equals("Prisioner(Clone)") && col.tag.Equals("Player"))
-        {
-            gameManager.GetComponent<Points>().RescuePoints();
+            if(this.gameObject.name != "Rock(Clone)")
+            {
+                Destroy(this.gameObject);
+                gameManager.GetComponent<SoundManager>().PlayDamage();
+            }
+            else if(this.gameObject.name == "Rock(Clone)")
+            {
+                gameManager.GetComponent<SoundManager>().PlayDamage();
+            }
         }
     }
 }

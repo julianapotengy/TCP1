@@ -40,10 +40,4 @@ public class Points : MonoBehaviour
             PlayerPrefs.SetInt("SCORE", pointsRound);
         }
     }
-
-    public void RescuePoints()
-    {
-        pointsRound += 10;
-        PlayerPrefs.SetInt("SCORE", pointsRound);
-    }
 }

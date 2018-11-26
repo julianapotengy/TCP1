@@ -7,6 +7,7 @@ public class GameOver : MonoBehaviour
 {
     private GameObject player;
     public GameObject gameOverPanel;
+    public PauseMenu pause;
 
     void Start()
     {
@@ -28,5 +29,7 @@ public class GameOver : MonoBehaviour
             PlayerPrefs.SetInt("HIGHSCORE", PlayerPrefs.GetInt("SCORE"));
         }
         gameOverPanel.SetActive(true);
+        pause.canPause = false;
+        Time.timeScale = 0;
     }
 }

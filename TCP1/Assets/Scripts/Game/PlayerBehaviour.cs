@@ -8,6 +8,8 @@ public class PlayerBehaviour : MonoBehaviour
     [Header("Atributos da movimentação do Player")]
     public float maxHeight;
     public float minHeight;
+    public float maxX;
+    public float minX;
     public float speedY;
     public float speedX;
     public int life;
@@ -52,10 +54,14 @@ public class PlayerBehaviour : MonoBehaviour
             Instantiate(shot, shotPos.transform.position, Quaternion.identity);
         }
 
-        /*(this.transform.position.x > maxHeightX)
+        if(this.transform.position.x > maxX)
         {
-
-        }*/
+            this.transform.position = new Vector2(maxX, transform.position.y);
+        }
+        else if(this.transform.position.x < minX)
+        {
+            this.transform.position = new Vector2(minX, transform.position.y);
+        }
 
         if (damageAnim)
         {
@@ -91,6 +97,13 @@ public class PlayerBehaviour : MonoBehaviour
             lifeHearts[0].SetActive(true);
             lifeHearts[1].SetActive(false);
             lifeHearts[2].SetActive(false);
+        }
+        else if(life == 0)
+        {
+            lifeHearts[0].SetActive(false);
+            lifeHearts[1].SetActive(false);
+            lifeHearts[2].SetActive(false);
+            gameManager.GetComponent<GameOver>().EndGame();
         }
     }
 

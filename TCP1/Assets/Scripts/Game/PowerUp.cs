@@ -11,7 +11,7 @@ public class PowerUp : MonoBehaviour
     
     void Start ()
     {
-        speed = 5;
+        speed = 10;
         player = GameObject.Find("Player");
 	}
 	

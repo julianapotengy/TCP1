@@ -1,7 +1,59 @@
 fileFormatVersion: 2
 guid: 31dca73cc44363845a7710ba8be192ca
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: SlimeVerde_0
+    21300002: SlimeVerde_1
+    21300004: SlimeVerde_2
+    21300006: SlimeVerde_3
+    21300008: SlimeVerde_4
+    21300010: SlimeVerde_5
+    21300012: SlimeVerde_6
+    21300014: SlimeVerde_7
+    21300016: SlimeVerde_8
+    21300018: SlimeVerde_9
+    21300020: SlimeVerde_10
+    21300022: SlimeVerde_11
+    21300024: SlimeVerde_12
+    21300026: SlimeVerde_13
+    21300028: SlimeVerde_14
+    21300030: SlimeVerde_15
+    21300032: SlimeVerde_16
+    21300034: SlimeVerde_17
+    21300036: SlimeVerde_18
+    21300038: SlimeVerde_19
+    21300040: SlimeVerde_20
+    21300042: SlimeVerde_21
+    21300044: SlimeVerde_22
+    21300046: SlimeVerde_23
+    21300048: SlimeVerde_24
+    21300050: SlimeVerde_25
+    21300052: SlimeVerde_26
+    21300054: SlimeVerde_27
+    21300056: SlimeVerde_28
+    21300058: SlimeVerde_29
+    21300060: SlimeVerde_30
+    21300062: SlimeVerde_31
+    21300064: SlimeVerde_32
+    21300066: SlimeVerde_33
+    21300068: SlimeVerde_34
+    21300070: SlimeVerde_35
+    21300072: SlimeVerde_36
+    21300074: SlimeVerde_37
+    21300076: SlimeVerde_38
+    21300078: SlimeVerde_39
+    21300080: SlimeVerde_40
+    21300082: SlimeVerde_41
+    21300084: SlimeVerde_42
+    21300086: SlimeVerde_43
+    21300088: SlimeVerde_44
+    21300090: SlimeVerde_45
+    21300092: SlimeVerde_46
+    21300094: SlimeVerde_47
+    21300096: SlimeVerde_48
+    21300098: SlimeVerde_49
+    21300100: SlimeVerde_50
+    21300102: SlimeVerde_51
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +92,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +121,1071 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SlimeVerde_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2084
+        width: 312
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd99be5d4852e1e43831e3343ba65a4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2084
+        width: 312
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a4f420c1abecb4b9a5c216795a08eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_2
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 2084
+        width: 312
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e85ed8ae9263a642b8372e542cfaca6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_3
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 2085
+        width: 312
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918507e2e5b6055449beedd968be9d5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_4
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 2088
+        width: 312
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd7be69e0306934385224184034294e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_5
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 2086
+        width: 312
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f16bdffe249aa64a85636d8e2275049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_6
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 2092
+        width: 313
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1250f50db19d3474b9017e736b3c08d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1857
+        width: 312
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d26a487215dfb4f964857a3eadad92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1848
+        width: 313
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660afe46e2e25b049b1a7754a3457431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_9
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1851
+        width: 311
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff97e39760567024abd8333cf8ea6282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_10
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1863
+        width: 312
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5bc4349edc9cc4292ba93e8179a89d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_11
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1857
+        width: 313
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c72dabb9030dd41b3e600728637a04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_12
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1866
+        width: 313
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4066304af0623e45bc35b1344899f9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1605
+        width: 313
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81e793118dc499488c7ec697796567f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_14
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1602
+        width: 313
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842c85bb79bb2ac4ebb348ec2077bee9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_15
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1599
+        width: 313
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe345e3b174c8548add1ed16d300c23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_16
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1617
+        width: 313
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f4e390d0678cd448ddd7170d941064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_17
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 1599
+        width: 312
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a166d6d961b33488d3ee929d78dd88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_18
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1602
+        width: 312
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fd57c195ee1fd41a8476630e01b071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_19
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1344
+        width: 313
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e124feba1e035f4a88e833a527dc53c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_20
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1344
+        width: 313
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512c589ed16e0974494f8a9e49615902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_21
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1356
+        width: 312
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36b262280bc3e746aa00243c9b60251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_22
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1344
+        width: 312
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9395fd21606c85a45828bf7a4effa351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_23
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1347
+        width: 313
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb753c20b6cac7a46a4a8a32d1544f14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_24
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1341
+        width: 312
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a7fa06233497b4189075c83975f23f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1089
+        width: 312
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31dde533e0625a47b4527e72d015d7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_26
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1080
+        width: 313
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e46c05bdc14b7946841cc1545045d58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_27
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1092
+        width: 312
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d8a174734a51a45a103c9ae6cea16f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_28
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1086
+        width: 312
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed58da0563c14741995ed4d0373f1eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_29
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1098
+        width: 312
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c544e2a3e744724db1e7018ff51f120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_30
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1107
+        width: 312
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b5baddb0f6aaa4eb71730375e5bb59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_31
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 828
+        width: 312
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d8f128814bc1642b2eddaa7415e985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_32
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 828
+        width: 313
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b054010c3d2cc64fa8f4222a1e78c5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_33
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 840
+        width: 313
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3377694844609bb4a86e3bfc1f3d210f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_34
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 840
+        width: 313
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ded2a4f02b45a84f928b2f64ee16ae6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_35
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 837
+        width: 311
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3022aaac521390245a01554bab0be62d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_36
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 852
+        width: 312
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2233bfaa5101f448c2ddcafb76fd77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_37
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 585
+        width: 313
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a4405304d18de48a0beaa1a8564d4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_38
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 578
+        width: 312
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e230b9880941f8647b9112c74aca1891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_39
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 609
+        width: 313
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d73d01127adcf45af4272feb35b243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_40
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 577
+        width: 313
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b854000bdc3d78143845c169765491c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_41
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 569
+        width: 313
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a57c003ecf97d41a32fa3d79d2691d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_42
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 581
+        width: 312
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58fc4038af28b5408ad623057061ecb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_43
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 325
+        width: 313
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f923b5ae1d9ed154bb1b6c86e2ec46b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_44
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 337
+        width: 312
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e1037f082bbe8439fd787974d1b74d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_45
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 357
+        width: 312
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4929941500efe0f48b702ed522e9a35b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_46
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 341
+        width: 313
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dc0550dddef7b4ab6e5d8b55a51bd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_47
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 317
+        width: 313
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa59243f446db214bbb261892be8c9a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_48
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 341
+        width: 313
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0083a8527ca1a524db279edc95e54a9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_49
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 45
+        width: 312
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a9a2f04159e414780f51ad695b65c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_50
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 39
+        width: 313
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c986fc6ee60d248b61917c3738e1f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeVerde_51
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 51
+        width: 312
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64608330aff7814684d29b5fc1bddf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

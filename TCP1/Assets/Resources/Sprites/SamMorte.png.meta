@@ -1,7 +1,51 @@
 fileFormatVersion: 2
 guid: 24ed56d5961d89648b7c2bad013413ee
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: SamMorte_0
+    21300002: SamMorte_1
+    21300004: SamMorte_2
+    21300006: SamMorte_3
+    21300008: SamMorte_4
+    21300010: SamMorte_5
+    21300012: SamMorte_6
+    21300014: SamMorte_7
+    21300016: SamMorte_8
+    21300018: SamMorte_9
+    21300020: SamMorte_10
+    21300022: SamMorte_11
+    21300024: SamMorte_12
+    21300026: SamMorte_13
+    21300028: SamMorte_14
+    21300030: SamMorte_15
+    21300032: SamMorte_16
+    21300034: SamMorte_17
+    21300036: SamMorte_18
+    21300038: SamMorte_19
+    21300040: SamMorte_20
+    21300042: SamMorte_21
+    21300044: SamMorte_22
+    21300046: SamMorte_23
+    21300048: SamMorte_24
+    21300050: SamMorte_25
+    21300052: SamMorte_26
+    21300054: SamMorte_27
+    21300056: SamMorte_28
+    21300058: SamMorte_29
+    21300060: SamMorte_30
+    21300062: SamMorte_31
+    21300064: SamMorte_32
+    21300066: SamMorte_33
+    21300068: SamMorte_34
+    21300070: SamMorte_35
+    21300072: SamMorte_36
+    21300074: SamMorte_37
+    21300076: SamMorte_38
+    21300078: SamMorte_39
+    21300080: SamMorte_40
+    21300082: SamMorte_41
+    21300084: SamMorte_42
+    21300086: SamMorte_43
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +84,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +113,891 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SamMorte_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2679
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0231c181ed45e478a73d386e8cfd3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 2676
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca05c3b66e7a5e4ebe7139d1c643384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2004
+        width: 180
+        height: 668
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c5309ebf156784283138f83129613e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1995
+        width: 285
+        height: 674
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ff4a5eff8ac8d40a08a3c063f6ad0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_5
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1995
+        width: 391
+        height: 669
+      alignment: 9
+      pivot: {x: 0.39719602, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0802b048abd359e4bbd13e1d0e670f36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_6
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 2637
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fde9af710c5324ab79dc7ecf2d7554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_7
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1972
+        width: 477
+        height: 653
+      alignment: 9
+      pivot: {x: 0.3789536, y: 0.55782133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0346457542dee0447ad2c7bfd503e413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_8
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 2615
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d372b5b9699257d4d9d2fe62e8684290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_9
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1972
+        width: 516
+        height: 629
+      alignment: 9
+      pivot: {x: 0.23634468, y: 0.5720397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebc309a39fca05468875199e00de9fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_10
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 2581
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aae1484eb84fa34f849f7b42ec28677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_11
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1969
+        width: 483
+        height: 597
+      alignment: 9
+      pivot: {x: 0.17203625, y: 0.60117275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a215b73962be5478c6f4404929e957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_12
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 2561
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60194ed8b5df7a489d723c2442af6ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_13
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 1987
+        width: 441
+        height: 558
+      alignment: 9
+      pivot: {x: 0.13973756, y: 0.6222318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2bf2fb92cae95478bb4ff186908ffb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_14
+      rect:
+        serializedVersion: 2
+        x: 3638
+        y: 2467
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4443b727ab0bc4b45bd1c072199b21a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_15
+      rect:
+        serializedVersion: 2
+        x: 4092
+        y: 2468
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2db2850e5064d448f4e06e1ae41acc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_16
+      rect:
+        serializedVersion: 2
+        x: 3138
+        y: 2464
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27615eac859f54f4cbec436188238c6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_17
+      rect:
+        serializedVersion: 2
+        x: 3899
+        y: 1987
+        width: 335
+        height: 470
+      alignment: 9
+      pivot: {x: 0.18561465, y: 0.7390677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5146fd5375add418a313a2e63a8bd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_18
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2452
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138210ab74fef124b9b3acdcc7dc3201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_19
+      rect:
+        serializedVersion: 2
+        x: 4932
+        y: 2452
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fbabf43066afc40a96001c106e862f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_20
+      rect:
+        serializedVersion: 2
+        x: 5488
+        y: 2452
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64bdedb6c912a949b64c7e2408c186e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_21
+      rect:
+        serializedVersion: 2
+        x: 2890
+        y: 1972
+        width: 418
+        height: 473
+      alignment: 9
+      pivot: {x: 0.13989842, y: 0.7649566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec53ebd399420ec40aeb51dd3a50e4bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_22
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 1980
+        width: 377
+        height: 471
+      alignment: 9
+      pivot: {x: 0.16345894, y: 0.7507661}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fab104003059d34f93d46d52b3d8f50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_23
+      rect:
+        serializedVersion: 2
+        x: 4336
+        y: 1975
+        width: 301
+        height: 470
+      alignment: 9
+      pivot: {x: 0.20657866, y: 0.7764799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9974db5b65c78a44b60e621e0819305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_24
+      rect:
+        serializedVersion: 2
+        x: 4799
+        y: 1984
+        width: 294
+        height: 464
+      alignment: 9
+      pivot: {x: 0.17058288, y: 0.7513391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad1072477910d54ebfbdb0f3c167dd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_25
+      rect:
+        serializedVersion: 2
+        x: 5243
+        y: 1969
+        width: 371
+        height: 462
+      alignment: 9
+      pivot: {x: 0.15912178, y: 0.8032396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f7910e7aed6444c8cf7e7b65f04a92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_26
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1770
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6d6195478dde845bf54ff3c9439d4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_27
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1301
+        width: 488
+        height: 436
+      alignment: 9
+      pivot: {x: 0.10011568, y: 0.7408363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578a8671bd8172649ada7b3efc99c6d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_28
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1728
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf80c11a70ce7cf4da2d83bc14038439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_29
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1296
+        width: 594
+        height: 388
+      alignment: 9
+      pivot: {x: 0.08224991, y: 0.8663091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2d4ff3689f5fc4f9030c483bf5f89b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_30
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 1637
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44eda38496c6e1446b3a0cc589959d32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_31
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1268
+        width: 696
+        height: 321
+      alignment: 9
+      pivot: {x: 0.063814536, y: 1.1226395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f587edfc39424e444a34bc80d6c251ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_32
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 1514
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe003e050d4f56a4283a6dce026bc0bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_33
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1228
+        width: 761
+        height: 241
+      alignment: 9
+      pivot: {x: 0.06420064, y: 1.6426252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0809c823ef44740842f794bf69e080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_34
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 1390
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ccc94fe499f1745a02b510a52fd24a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_35
+      rect:
+        serializedVersion: 2
+        x: 2911
+        y: 1204
+        width: 814
+        height: 177
+      alignment: 9
+      pivot: {x: 0.049107358, y: 2.407083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ffd8d2f62594f478fb565a4abdb8dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_36
+      rect:
+        serializedVersion: 2
+        x: 3893
+        y: 1209
+        width: 835
+        height: 142
+      alignment: 9
+      pivot: {x: 0.020054033, y: 2.9396045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc68f12413bcfc4d925d2b14177faf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_37
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 1207
+        width: 841
+        height: 127
+      alignment: 9
+      pivot: {x: 0.05687925, y: 3.3138669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40302b35bd3b97f4e982431590fab20e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_38
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 434
+        width: 841
+        height: 129
+      alignment: 9
+      pivot: {x: 0.04092557, y: 3.2006629}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d73628938e0a843a814c3191c8a7b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_39
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 434
+        width: 841
+        height: 129
+      alignment: 9
+      pivot: {x: 0.030583838, y: 3.2035408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f61d879b583cd9438c849652d8708a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_40
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 446
+        width: 841
+        height: 129
+      alignment: 9
+      pivot: {x: 0.05687954, y: 3.0636606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2477446ebd921224a95ea93fd21a8bbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_41
+      rect:
+        serializedVersion: 2
+        x: 2931
+        y: 443
+        width: 841
+        height: 127
+      alignment: 9
+      pivot: {x: 0.062049747, y: 3.21114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6470ddad4187e48928872c6207622b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_42
+      rect:
+        serializedVersion: 2
+        x: 3943
+        y: 399
+        width: 841
+        height: 128
+      alignment: 9
+      pivot: {x: 0.035864577, y: 3.5015292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab6e1767a8ef514fa30799f91da8f0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamMorte_43
+      rect:
+        serializedVersion: 2
+        x: 4961
+        y: 402
+        width: 841
+        height: 129
+      alignment: 9
+      pivot: {x: 0.051376943, y: 3.475383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85106154be0d3e64e9a515ee7c645eb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

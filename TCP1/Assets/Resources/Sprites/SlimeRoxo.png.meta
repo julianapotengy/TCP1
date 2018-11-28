@@ -1,7 +1,38 @@
 fileFormatVersion: 2
 guid: 7f9c3558f0bd1a5408f57cd88b1952cc
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: SlimeRoxo_0
+    21300002: SlimeRoxo_1
+    21300004: SlimeRoxo_2
+    21300006: SlimeRoxo_3
+    21300008: SlimeRoxo_4
+    21300010: SlimeRoxo_5
+    21300012: SlimeRoxo_6
+    21300014: SlimeRoxo_7
+    21300016: SlimeRoxo_8
+    21300018: SlimeRoxo_9
+    21300020: SlimeRoxo_10
+    21300022: SlimeRoxo_11
+    21300024: SlimeRoxo_12
+    21300026: SlimeRoxo_13
+    21300028: SlimeRoxo_14
+    21300030: SlimeRoxo_15
+    21300032: SlimeRoxo_16
+    21300034: SlimeRoxo_17
+    21300036: SlimeRoxo_18
+    21300038: SlimeRoxo_19
+    21300040: SlimeRoxo_20
+    21300042: SlimeRoxo_21
+    21300044: SlimeRoxo_22
+    21300046: SlimeRoxo_23
+    21300048: SlimeRoxo_24
+    21300050: SlimeRoxo_25
+    21300052: SlimeRoxo_26
+    21300054: SlimeRoxo_27
+    21300056: SlimeRoxo_28
+    21300058: SlimeRoxo_29
+    21300060: SlimeRoxo_30
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +71,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +100,651 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SlimeRoxo_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2319
+        width: 457
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e1c64858e3ce14796c17b7d661309e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_1
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 2307
+        width: 453
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1efd1704877234d97cbeac8f60596a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_2
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2298
+        width: 449
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434d697775682fb429ec36ca29068591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_3
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 2307
+        width: 445
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7cc231a9b40e94cad5f2d482a4cbe2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_4
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 2300
+        width: 441
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546d6fcbf12e1934ea5ae7bf7c92933b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_5
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 2298
+        width: 437
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ad947b3982a044a8b5fdfd1ad34f0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_6
+      rect:
+        serializedVersion: 2
+        x: 2986
+        y: 2315
+        width: 433
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a359b8c1583e29449aca90e24ce2406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_7
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 2303
+        width: 431
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa1f0ac114fc1144966626f6b82f669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1723
+        width: 431
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bd591ccc28d17479a2d3f866925acd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_9
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1729
+        width: 431
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0a62c0dac0c054b8cf478541baef8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_10
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1753
+        width: 432
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680e45663c00fe54da6589a9edcbe56e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_11
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1784
+        width: 433
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ea0ef5e41baa946b8c17c292bf96b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_12
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 1819
+        width: 435
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2441c904e17d25c4c96f8fba90f9f630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_13
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 1819
+        width: 435
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848d0c68e4075db4bb4139054de72730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_14
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 1796
+        width: 435
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b791b7ab83ed848bb3a0cf3c154aa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1201
+        width: 437
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c443fddd40f886e4993f3c9a4d89567e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_16
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1201
+        width: 438
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321ea9fa635261e44b5f753a16e39e97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_17
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1226
+        width: 441
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56affe6e73e64844b3e691785c5110e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_18
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1261
+        width: 443
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272fa2cad6ca9f548aa9302dc043c919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_19
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 1267
+        width: 445
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fe6219b812ab24ea41ebad91f52125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_20
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 1255
+        width: 445
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17d690f6a90d0344a93942424bf68e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_21
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 1249
+        width: 447
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796be9bf95438144cbcaa24bfdd25bb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 601
+        width: 448
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31423e58ab128a54b95b51e6a6c11427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_23
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 589
+        width: 448
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1615ab5c47ea248a863bc0b08c32fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_24
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 620
+        width: 449
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff93bbce07edc245ae20a2cb7f9c57d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_25
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 631
+        width: 450
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24810bc2e3798046a5d9c8898f5904d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_26
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 607
+        width: 453
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3c73cc8e9a79c40a0e74ce179c239e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_27
+      rect:
+        serializedVersion: 2
+        x: 2861
+        y: 626
+        width: 452
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7338489450c259488993177cb479d79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_28
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 632
+        width: 454
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072a3c61f860a68478cd8ce6ba8443a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_29
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 43
+        width: 455
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4701d180c9ddff4e99819a2f9ee815a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeRoxo_30
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 50
+        width: 457
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ceee4b7aa59db544918a111a945a2f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

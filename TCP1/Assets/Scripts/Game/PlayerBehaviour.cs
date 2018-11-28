@@ -17,9 +17,9 @@ public class PlayerBehaviour : MonoBehaviour
     [Header("Imagens da vida do Player")]
     public GameObject[] lifeHearts;
 
-    private bool damageAnim;
+    private bool damageAnim, canMove;
     private Animator playerAnim;
-    private float counter;
+    private float counter, deadCounter;
 
     [Header("Referências do tiro do Player")]
     public GameObject shot;
@@ -28,49 +28,57 @@ public class PlayerBehaviour : MonoBehaviour
     [Header("Referência do GameManager")]
     public GameObject gameManager;
 
+    [Header("Referência do GameObject do Damage")]
+    public GameObject damageObj;
+
     void Start ()
     {
         playerAnim = this.GetComponent<Animator>();
+        damageObj.SetActive(false);
+        canMove = true;
     }
 	
 	void Update ()
     {
-        float translationY = Input.GetAxis("Vertical") * speedY * Time.deltaTime;
-        float translationX = Input.GetAxis("Horizontal") * speedX * Time.deltaTime;
-        this.transform.Translate(translationX, translationY, 0);
+        if(canMove)
+        {
+            float translationY = Input.GetAxis("Vertical") * speedY * Time.deltaTime;
+            float translationX = Input.GetAxis("Horizontal") * speedX * Time.deltaTime;
+            this.transform.Translate(translationX, translationY, 0);
 
-        if(this.transform.position.y > maxHeight)
-        {
-            this.transform.position = new Vector2(transform.position.x, maxHeight);
-        }
-        else if (this.transform.position.y < minHeight)
-        {
-            this.transform.position = new Vector2(transform.position.x, minHeight);
-        }
+            if (this.transform.position.y > maxHeight)
+            {
+                this.transform.position = new Vector2(transform.position.x, maxHeight);
+            }
+            else if (this.transform.position.y < minHeight)
+            {
+                this.transform.position = new Vector2(transform.position.x, minHeight);
+            }
 
-        if (Input.GetKeyDown("mouse 0") && !damageAnim)
-        {
-            gameManager.GetComponent<SoundManager>().PlayShot();
-            Instantiate(shot, shotPos.transform.position, Quaternion.identity);
-        }
+            if (Input.GetKeyDown("mouse 0") && !damageAnim)
+            {
+                gameManager.GetComponent<SoundManager>().PlayShot();
+                Instantiate(shot, shotPos.transform.position, Quaternion.identity);
+            }
 
-        if(this.transform.position.x > maxX)
-        {
-            this.transform.position = new Vector2(maxX, transform.position.y);
-        }
-        else if(this.transform.position.x < minX)
-        {
-            this.transform.position = new Vector2(minX, transform.position.y);
+            if (this.transform.position.x > maxX)
+            {
+                this.transform.position = new Vector2(maxX, transform.position.y);
+            }
+            else if (this.transform.position.x < minX)
+            {
+                this.transform.position = new Vector2(minX, transform.position.y);
+            }
         }
 
         if (damageAnim)
         {
             counter += Time.deltaTime;
-            playerAnim.SetBool("damage", true);
+            damageObj.SetActive(true);
         }
         if (counter >= 1 && damageAnim)
         {
-            playerAnim.SetBool("damage", false);
+            damageObj.SetActive(false);
             counter = 0;
             damageAnim = false;
         }
@@ -100,10 +108,16 @@ public class PlayerBehaviour : MonoBehaviour
         }
         else if(life == 0)
         {
-            lifeHearts[0].SetActive(false);
-            lifeHearts[1].SetActive(false);
-            lifeHearts[2].SetActive(false);
-            gameManager.GetComponent<GameOver>().EndGame();
+            playerAnim.SetBool("dead", true);
+            canMove = false;
+            deadCounter += Time.deltaTime;
+            if(deadCounter > 2)
+            {
+                lifeHearts[0].SetActive(false);
+                lifeHearts[1].SetActive(false);
+                lifeHearts[2].SetActive(false);
+                gameManager.GetComponent<GameOver>().EndGame();
+            }
         }
     }
 

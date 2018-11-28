@@ -14,14 +14,6 @@ public class GameOver : MonoBehaviour
         player = GameObject.FindWithTag("Player");
     }
 
-    void Update()
-    {
-        if(player.GetComponent<PlayerBehaviour>().life <= 0)
-        {
-            EndGame();
-        }
-    }
-
     public void EndGame()
     {
         if(PlayerPrefs.GetInt("HIGHSCORE") <= PlayerPrefs.GetInt("SCORE"))

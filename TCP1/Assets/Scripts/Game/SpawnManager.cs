@@ -18,7 +18,8 @@ public class SpawnManager : MonoBehaviour
     private float randPosition;
 
     [Header("Objetos para Spawn")]
-    public GameObject enemyGround;
+    public GameObject enemyGround1;
+    public GameObject enemyGround2;
     public GameObject enemyFly;
     public GameObject rock;
 
@@ -53,15 +54,19 @@ public class SpawnManager : MonoBehaviour
         if (timer <= 0)
         {
             int randEnemy = Random.Range(1, 100);
-            if (randEnemy < 40)
+            if (randEnemy <= 30)
             {
-                Instantiate(enemyGround, new Vector3(transform.position.x, randPosition, transform.position.z), Quaternion.identity);
+                Instantiate(enemyGround1, new Vector3(transform.position.x, randPosition, transform.position.z), Quaternion.identity);
             }
-            else if(randEnemy < 70 && randEnemy <= 100)
+            else if(randEnemy > 30 && randEnemy <= 75)
+            {
+                Instantiate(enemyGround2, new Vector3(transform.position.x, randPosition, transform.position.z), Quaternion.identity);
+            }
+            else if(randEnemy < 75)
             {
                 Instantiate(enemyFly, new Vector3(transform.position.x, randPosition, transform.position.z), Quaternion.identity);
             }
-            else if(randEnemy > 70)
+            else if(randEnemy >= 75)
             {
                 Instantiate(rock, new Vector3(transform.position.x, randPosition, transform.position.z), Quaternion.identity);
             }

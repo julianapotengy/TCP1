@@ -1,7 +1,38 @@
 fileFormatVersion: 2
 guid: aa47b28e5e878594cad6919e7820039c
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: SlimeAzulEscuro_0
+    21300002: SlimeAzulEscuro_1
+    21300004: SlimeAzulEscuro_2
+    21300006: SlimeAzulEscuro_3
+    21300008: SlimeAzulEscuro_4
+    21300010: SlimeAzulEscuro_5
+    21300012: SlimeAzulEscuro_6
+    21300014: SlimeAzulEscuro_7
+    21300016: SlimeAzulEscuro_8
+    21300018: SlimeAzulEscuro_9
+    21300020: SlimeAzulEscuro_10
+    21300022: SlimeAzulEscuro_11
+    21300024: SlimeAzulEscuro_12
+    21300026: SlimeAzulEscuro_13
+    21300028: SlimeAzulEscuro_14
+    21300030: SlimeAzulEscuro_15
+    21300032: SlimeAzulEscuro_16
+    21300034: SlimeAzulEscuro_17
+    21300036: SlimeAzulEscuro_18
+    21300038: SlimeAzulEscuro_19
+    21300040: SlimeAzulEscuro_20
+    21300042: SlimeAzulEscuro_21
+    21300044: SlimeAzulEscuro_22
+    21300046: SlimeAzulEscuro_23
+    21300048: SlimeAzulEscuro_24
+    21300050: SlimeAzulEscuro_25
+    21300052: SlimeAzulEscuro_26
+    21300054: SlimeAzulEscuro_27
+    21300056: SlimeAzulEscuro_28
+    21300058: SlimeAzulEscuro_29
+    21300060: SlimeAzulEscuro_30
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +71,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +100,651 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1337
+        width: 386
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892e74db25c649647b657eb507601a6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1330
+        width: 385
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e5405f586fefe428ecc6dbc7358cad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_2
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1332
+        width: 386
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879c254d0c50e744fb1dcc4ae765ddd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_3
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 1334
+        width: 384
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c355fc8cd27268a4cb5457007a7bc53b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_4
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1330
+        width: 386
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fd37328a11b3d4186b8eb12636a65b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_5
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 1337
+        width: 384
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6f627da91dfa84287287bb227fed8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1072
+        width: 385
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912407bd91bdd1b47af555bcff67ef14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_7
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1075
+        width: 386
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61ef70f7e5841a4085a73b1471da220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_8
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1082
+        width: 384
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9b9833b86da4040bec8f4d9549593e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_9
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 1087
+        width: 386
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc86b341ad304b14d80873eb78f78785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_10
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1084
+        width: 385
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903a3660ce60bee47a14b51e9bf0ec4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_11
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1082
+        width: 384
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f67f5a399e5b2d4e90940b0f962d1ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 791
+        width: 386
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb61b3a7e26ff744f859cb2b38a597ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_13
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 806
+        width: 385
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e53e5de6b6c43b4f8a3e5b5036af32b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_14
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 821
+        width: 385
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a30c73e23167445808c488444fa6fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_15
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 823
+        width: 386
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff157ee1393a17429268fac3e099ccd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_16
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 821
+        width: 384
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8060fed892635024895a050655a66b47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_17
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 817
+        width: 385
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75f2ff9d5ff8d34f9d5960503a7ccb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 541
+        width: 386
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cbcdbc74f3f094c80aba235383b881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_19
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 550
+        width: 384
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c289ddd716848ad4496e997765e8c2fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_20
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 553
+        width: 386
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cea38d3c173004b9a80d121b90abe9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_21
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 572
+        width: 385
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b886bc5eca27747ae23be17af4b4e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_22
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 569
+        width: 384
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021b4d082bbf77e40ba34dc45eeb9740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_23
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 577
+        width: 386
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5440ec1b4d4a0e241b1b6adf964e48e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 284
+        width: 386
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a726bcb3d26e5a47a2bc4348ce96a3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_25
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 305
+        width: 385
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2e640e86e056947b5849b8f502e487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_26
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 307
+        width: 386
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c5a88a02f57ad48b8c876ce93cd10a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_27
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 323
+        width: 385
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a39a2c76dfbf44cab9d55c235b6d60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_28
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 322
+        width: 386
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28620279e00300340896a7ac10505332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_29
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 337
+        width: 385
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0939af63a97aeef41840153ccff660a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeAzulEscuro_30
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 45
+        width: 386
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c557affd8de7277438f6a4be3c0e66b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

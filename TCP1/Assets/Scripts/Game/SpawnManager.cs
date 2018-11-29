@@ -62,11 +62,11 @@ public class SpawnManager : MonoBehaviour
             {
                 Instantiate(enemyGround2, new Vector3(transform.position.x, randPosition, transform.position.z), Quaternion.identity);
             }
-            else if(randEnemy < 75)
+            else if(randEnemy > 75)
             {
                 Instantiate(enemyFly, new Vector3(transform.position.x, randPosition, transform.position.z), Quaternion.identity);
             }
-            else if(randEnemy >= 75)
+            else if(randEnemy >= 90)
             {
                 Instantiate(rock, new Vector3(transform.position.x, randPosition, transform.position.z), Quaternion.identity);
             }

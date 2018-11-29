@@ -10,6 +10,11 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void ChangeSceneToCutscene()
+    {
+        SceneManager.LoadScene(2);
+    }
+
     public void ChangeSceneToGame()
     {
         SceneManager.LoadScene(1);

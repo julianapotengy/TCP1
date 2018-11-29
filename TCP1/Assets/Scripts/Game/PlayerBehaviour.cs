@@ -17,7 +17,7 @@ public class PlayerBehaviour : MonoBehaviour
     [Header("Imagens da vida do Player")]
     public GameObject[] lifeHearts;
 
-    private bool damageAnim, canMove;
+    public bool damageAnim, canMove;
     private Animator playerAnim;
     private float counter, deadCounter;
 
@@ -58,7 +58,7 @@ public class PlayerBehaviour : MonoBehaviour
             if (Input.GetKeyDown("mouse 0") && !damageAnim)
             {
                 gameManager.GetComponent<SoundManager>().PlayShot();
-                Instantiate(shot, shotPos.transform.position, Quaternion.identity);
+                Instantiate(shot, shotPos.transform.position, shotPos.transform.rotation);
             }
 
             if (this.transform.position.x > maxX)

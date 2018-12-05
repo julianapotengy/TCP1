@@ -106,7 +106,7 @@ public class PlayerBehaviour : MonoBehaviour
             lifeHearts[1].SetActive(false);
             lifeHearts[2].SetActive(false);
         }
-        else if(life == 0)
+        else if(life <= 0)
         {
             playerAnim.SetBool("dead", true);
             canMove = false;
